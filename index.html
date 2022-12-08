@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>LevelUp – Продукт для повышения потенции</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+
+<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+    <source src="https://assets.mixkit.co/videos/preview/mixkit-a-guy-texting-on-his-smartphone-269-large.mp4"
+            type="video/mp4">
+</video>
+<div class="blackout"></div>
+
+<section id="promo">
+    <h1>LevelUp <span class="thin">– Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></h1>
+    <div class="description">
+        <div class="features">
+            <h2>Lorem ipsum</h2>
+            <ul>
+                <li>1️⃣ Feature 1</li>
+                <li>2️⃣ Feature 2</li>
+                <li>3️⃣ Feature 3</li>
+            </ul>
+            <button onclick="location.href='#order'">ORDER</button>
+        </div>
+        <div><img src="img/prod.png" alt="product"></div>
+    </div>
+</section>
+
+<section id="composition">
+    <div id="composition-block">
+        <div class="features-column">
+            <div class="feature">
+                <img src="https://www.efilecabinet.com/wp-content/uploads/2019/05/g2-testimonial-male.jpg" alt="feature1">
+                <label>Feature 1</label>
+            </div>
+            <div class="feature">
+                <img src="https://www.commercialupfits.com/wp-content/uploads/2017/10/mature-man-close-up-testimonial.jpg" alt="feature2">
+                <label>Feature 2</label>
+            </div>
+            <div class="feature">
+                <img src="https://www.findtherightclick.com/wp-content/uploads/2017/07/Matt-T-Testimonial-pic.jpg" alt="feature3">
+                <label>Feature 3</label>
+            </div>
+        </div>
+        <div class="prod">
+            <img src="img/prod.png">
+        </div>
+        <div class="features-column">
+            <div class="feature">
+                <img src="https://www.efilecabinet.com/wp-content/uploads/2019/05/g2-testimonial-male.jpg" alt="feature4">
+                <label>Feature 4</label>
+            </div>
+            <div class="feature">
+                <img src="https://www.commercialupfits.com/wp-content/uploads/2017/10/mature-man-close-up-testimonial.jpg" alt="feature5">
+                <label>Feature 5</label>
+            </div>
+            <div class="feature">
+                <img src="https://www.findtherightclick.com/wp-content/uploads/2017/07/Matt-T-Testimonial-pic.jpg" alt="feature6">
+                <label>Feature 6</label>
+            </div>
+        </div>
+    </div>
+    <button onclick="location.href='#order'">ORDER</button>
+</section>
+
+<section id="testimonial" class="testimonial">
+    <div class="wrap">
+
+        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+        <ul id="testim-dots" class="dots">
+            <li class="dot active"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+        </ul>
+
+        <div id="testim-content" class="cont">
+            <div class="active">
+                <div class="img"><img
+                        src="https://www.efilecabinet.com/wp-content/uploads/2019/05/g2-testimonial-male.jpg"
+                        alt="testimonial1">
+                </div>
+                <h2>Lorem P. Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div>
+                <div class="img"><img
+                        src="https://www.commercialupfits.com/wp-content/uploads/2017/10/mature-man-close-up-testimonial.jpg"
+                        alt="testimonial2"></div>
+                <h2>Mr. Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div>
+                <div class="img"><img
+                        src="https://www.findtherightclick.com/wp-content/uploads/2017/07/Matt-T-Testimonial-pic.jpg"
+                        alt="testimonial3"></div>
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="promo2">
+    <div class="description">
+        <div><img src="img/doctor.png" alt="product"></div>
+        <div class="features">
+            <h2>Lorem ipsum</h2>
+            <ul>
+                <li>1️⃣ Feature 1</li>
+                <li>2️⃣ Feature 2</li>
+                <li>3️⃣ Feature 3</li>
+            </ul>
+        </div>
+    </div>
+    <button onclick="location.href='#order'">ORDER</button>
+</section>
+
+<section id="order-form">
+    <h1>LevelUp <span class="thin">– Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></h1>
+    <div class="card">
+        <span id="countdown" style="font-weight: bold;"></span>
+    </div>
+    <div class="form-detail">
+        <div class="prod">
+            <img src="img/prod.png">
+            <p class="price">3 999.-</p>
+            <p class="old-price">6 999.-</p>
+        </div>
+        <div>
+            <form id="order">
+                <h2>Form header</h2>
+                <input type="text">
+                <input type="tel">
+                <input type="submit" value="ORDER">
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<script src="https://use.fontawesome.com/1744f3f671.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
